@@ -11,5 +11,14 @@
   },
   "rules": {
     "no-unused-vars": "warn"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["webpack.config.js"],
+      "env": {
+        "node": true,
+        "commonjs": true
+      }
+    }
+  ]
 }
